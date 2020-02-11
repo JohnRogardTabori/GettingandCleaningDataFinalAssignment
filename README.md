@@ -1,9 +1,8 @@
-==================================================================
+
 A Tidy Human Activity Recognition Dataset Using Smartphones
-Version 2.0
-==================================================================
+
 Author:  John Rogard Tabori
-Completed:  February 9, 2020
+Completed:  February 10, 2020
 Based on the Dataset Provided by:
 	Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 	Smartlab - Non Linear Complex Systems Laboratory
@@ -58,7 +57,9 @@ IIIb. Files created by the author to meet the requirements of the assignment:
 
 - 'ProjectCodeBook.txt':  Describes all the variables as included in the files produced by the r-source code (run_analysis.R)
 
-- 'features__var_names10.csv": This is a fully modified, variable names file created using    EXCEL to edit the variable names.
+- 'features__var_names10.csv": This is a fully modified, variable names file created using EXCEL to edit the variable names.
+			       If you download my r-code to test run it, you will need this file in addition to the original
+			       files from the Reyes-Ortiz, et. al. dataset.  
 
 - 'run_analysis.R':  r-source code that produces the final Tidy data files as listed below:
 
@@ -92,12 +93,9 @@ Notes 1 (Author Notes and Comments):
     is written out as a text file.  As in the case of the other two files, it contains
     data on each subject across each activity using the narrative descriptor of the 
     six activities (alphaactivitycode) that were assessed, the subject code (subject) and the testortrain
-    variable, with the grand mean calculated across the selected variables
+    variable, with the mean calculated by grouped activity and subject code across the selected variables
     (dim = 180 by 83) 
-5.  I do not regard any of the code that I developed as unique either partially or 
-    sigularly, or for that matter the datasets produced using the code.  Hence, I do not
-    require any licensing for there use, although you should be aware that the original
-    authors of the datasets that I used do require licensing under certain circumstances (See Note 2 below). 
+5.  Please be aware of the licensing requirements for use of the Reyes-Ortiz, et. al. datasets.  See Note 2.
     
 Notes 2 (Original notes contained in the downloaded README file from Reyes-Ortiz, et.al): 
 ======
