@@ -1,8 +1,9 @@
-
+==================
 A Tidy Human Activity Recognition Dataset Using Smartphones
-
+==================
 Author:  John Rogard Tabori
 Completed:  February 10, 2020
+==================
 Based on the Dataset Provided by:
 	Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 	Smartlab - Non Linear Complex Systems Laboratory
