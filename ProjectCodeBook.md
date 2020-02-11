@@ -82,11 +82,6 @@ Four additional variables were added to the three "tidy" datafiles that were out
 4.	testortrain	This variable indicates whether the subject belonged to one of two groups, those who underwent training (TRAIN) before testing and those who just underwent testing (TEST).
 			These appear to be the equivalent of an experimental and a control group.  The grouping is, of course, binary (TRAIN or 	TEST).
 
-Finally, when producing the final datafile, 'MF2MeltMean.txt', which contains the mean of means for each subject by activity and group affiliation, two additional variables were created.  They are:
-
-5.	mean_of_means:	This value is the mean of means sorted by activity, subject and whether the subject was in the TRAIN or TEST group.
-6.	n_of_observations:	This variable indicates the number of mean values that were observed for each activity by subject by whether they were in the TRAIN or TEST group.
-
 The complete list of variables of each feature vector as modified by the author of this document are in the following files produced by the 'run_analysis.R' script:
 
 1.	MF1vars.txt
