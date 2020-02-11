@@ -85,12 +85,6 @@ summarise_each(funs(mean))
 write.table(MF2Means,"tidyhumanactivitydataset.txt", row.name = FALSE)
 write.csv(MF2Means, "MF2Means.csv")
 write.csv(MF2, 'MF2out.csv')
-MF2Melt<-melt(MF2,id=c("alphaactivitycode", "subject", "testortrain"), measure.vars=c(4:49))
-library(plyr)
-MF2MeltMean<- ddply(MF2Melt, c("alphaactivitycode", "subject", "testortrain"), summarise,
-                mean_of_means=mean(value),
-                n_of_observations=length(value))
-write.table(MF2MeltMean, "MeanByActivityAndSubjectOut.txt",row.name = FALSE)
 MF1vars <- names(MF1)
 write.table(MF1vars, "MF1vars.txt",row.name = FALSE)
 MF2vars <- names(MF2)
